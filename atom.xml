@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://latin-pz.github.io</id>
     <title>Gridea</title>
-    <updated>2022-02-12T13:44:24.424Z</updated>
+    <updated>2022-02-13T04:00:58.631Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://latin-pz.github.io"/>
     <link rel="self" href="https://latin-pz.github.io/atom.xml"/>
@@ -10,53 +10,6 @@
     <logo>https://latin-pz.github.io/images/avatar.png</logo>
     <icon>https://latin-pz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[windows10 局域网文件夹共享无法访问的终极解决方法]]></title>
-        <id>https://latin-pz.github.io/post/windows10-ju-yu-wang-wen-jian-jia-gong-xiang-wu-fa-fang-wen-de-zhong-ji-jie-jue-fang-fa/</id>
-        <link href="https://latin-pz.github.io/post/windows10-ju-yu-wang-wen-jian-jia-gong-xiang-wu-fa-fang-wen-de-zhong-ji-jie-jue-fang-fa/">
-        </link>
-        <updated>2022-02-12T13:31:41.000Z</updated>
-        <content type="html"><![CDATA[<p>检查基础设置</p>
-<ol>
-<li>
-<p>高级共享设置<br>
-打开网络和 Internet ：网络共享中心 → 高级共享设置 → 选中启用网络发现、启用文件和打印机共享。</p>
-</li>
-<li>
-<p>安装 SMB1 协议<br>
-打开启用或关闭 Windows 功能对话框：在打开的窗口中找到 SMB 1.0 相关选项全部选中 → 点击确定 → 进行安装 → 安装完进行重启。</p>
-</li>
-<li>
-<p>共享文件设置<br>
-打开你的共享文件夹：在共享目录的 “高级共享” 和“安全” 选项卡 → 添加 EveryOne用户。<br>
-在需要设置共享的驱动器/目录上，点击右键 → 属性 → 共享 → 高级共享 → 权限 → 添加Everyone用户，在设置相应权限即可。</p>
-</li>
-</ol>
-<p>疑难杂症方案</p>
-<ol>
-<li>检查服务运行状态<br>
-打开控制面板 → 管理工具 → 服务， 找到以下服务是否设置为自动启动：</li>
-</ol>
-<p>Function Discovery Provider Host<br>
-Function DiscoveryResource Publication<br>
-Workstation<br>
-Server<br>
-2. 检查组策略：启用不安全来宾登陆 选项<br>
-打开运行，输入 gpedit.msc 打开组策略。<br>
-计算机配置 → 管理模板 → 网络 → Lanman工作站 → 在右边找到 启用不安全的来宾登陆，双击打开选择启用并确定。</p>
-<ol start="3">
-<li>
-<p>检查组策略：使用空密码的本地账户只允许进行控制台登陆 选项<br>
-计算机配置 → Windows 设置 → 安全设置 → 本地策略 → 安全选项，然后在右边窗口中找到账户：使用空密码的本地账户只允许进行控制台登陆选项，双击打开选中已禁用并确定。</p>
-</li>
-<li>
-<p>检查组策略：拒绝从网络访问这台电脑 选项<br>
-计算机配置 → Windows 设置 → 安全设置 → 本地策略 → 用户权限分配 → 然后在右边窗口找到拒绝从网络访问这台电脑，双击打开。将拒绝从网络访问这台计算机里面的所有用户选中，点击删除并确定。</p>
-</li>
-</ol>
-<p>必须保证两台电脑都要满足以上设置且 windows 版本最好相同。</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://latin-pz.github.io/post/hello-gridea/</id>
